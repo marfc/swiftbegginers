@@ -44,4 +44,10 @@ print(myNewDictionary["Fernández"]) //Imprime nil
 
 myNewDictionary.removeValue(forKey: "Fernández") //Otra forma más clásica
 
+// - Obtener value antigua y actualizarla
+
+if let oldValue = myNewDictionary.updateValue("Anita", forKey: 001) {
+    print("The old value of 1 was \(oldValue)") //Imprime que el antiguo valor era Ana
+}                                               //y a la vez lo cambia por Anita
+
 
