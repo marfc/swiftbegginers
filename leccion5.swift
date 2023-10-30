@@ -59,3 +59,29 @@ myModernArray.first     //Accedemos al primer elemento del array
 myModernArray.last      //Accedemos al último elemento del array
 myModernArray.sort      //Ordenamos los elementos de nuestro array
 myModernArray.removeAll //Eliminamos todos los elementos del Array
+
+// ---- Set ----
+
+// Es muy similar al Array, pero este no guarda el orden como Array lo hace
+// Además no admite duplicados como lo hace Array, por lo que si insertamos "10" y luego
+// lo volvemos a insertar, no vamos a ver cambio porque solo se puede insertar una vez
+
+var setStrings = Set(["1", "2", "3"]) //Array diría 1, 2, 3, mientras que Set cualquier combinación
+var setStrings2 = Set(arrayLiteral: "1", "2", "3")
+
+print("setStrings contains \(setStrings.count) items.") //Imprime setStrings contiene 3 items
+
+if setStrings.isEmpty {
+    print("setStrings is empty.")
+} else {
+    print("setStrings is not empty.")  //Imprime que no está vacío
+}
+
+setStrings.insert("4")   // Se añade el 4 en una posición cualquiera
+setStrings.contains("1") //Vemos si contiene el String "1", en este caso true
+setStrings.remove("1")   //Podemos eliminar un valor en concreto
+
+for value in setStrings {
+    print(value)         //se van imprimiendo uno a uno los elementos desordenadamente
+}
+
