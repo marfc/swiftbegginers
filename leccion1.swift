@@ -41,4 +41,22 @@ let mySecondConstant = myFirstVariable
 
 print(mySecondConstant)  // Imprime "He cambiado el valor"
 
+// Typealias : Sirve para dar un nombre a un tipo más complicado
+
+typealias Name = String  // Si ponemos ahora tipo Name, será como poner String
+let username: Name = "marfercon"
+
+typealias AudioSample = UInt16 //Ejemplo más realista, para una app de audio
+var maxAmplitudeFound = AudioSample.min
+
+// Tuplas
+
+let user = ("Swift", "Beta")
+user.0 //Swift
+user.1 //Beta
+
+let (firstValue, secondValue) = ("Swift", "Beta")
+firstValue //Swift
+secondValue //Beta
+
 
