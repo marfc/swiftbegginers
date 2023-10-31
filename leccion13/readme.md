@@ -1,1 +1,1 @@
-Closures en Swift
+Herencia en Swift
