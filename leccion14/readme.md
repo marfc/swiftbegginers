@@ -1,1 +1,1 @@
-Herencia en Swift
+Protocolos en Swift
