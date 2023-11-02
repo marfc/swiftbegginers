@@ -1,1 +1,0 @@
-Herencia en Swift
