@@ -3,9 +3,9 @@ Introducción del curso de SwiftBeta de UIKit.
 Algunos apuntes:
 
 Para la layout (que cuando se gire horizontalmente no se mueva todo mal): 
-1 - ctrl mientras se clica en el label/button lo que sea, se arrastra (sale una línea) y se suelta. 
-2 - Pulsa shift y selecciona vertical y horizontal. 
-3 - Si el label/button/etc no está en el centro se va a quejar, tienes que pulsar sobre el icono de refresh 
+\n1 - ctrl mientras se clica en el label/button lo que sea, se arrastra (sale una línea) y se suelta. 
+\n2 - Pulsa shift y selecciona vertical y horizontal. 
+\n3 - Si el label/button/etc no está en el centro se va a quejar, tienes que pulsar sobre el icono de refresh 
 abajo (a la derecha del zoom de la preview)
 
 Si por ejemplo es un botón y un label, y el botón hemos puesto para que quede siempre en el centro, podemos 
