@@ -1,6 +1,6 @@
 ## Introducción del curso de SwiftBeta de UIKit.
 
-# Algunos apuntes:
+### Algunos apuntes:
 
 Para la layout (que cuando se gire horizontalmente no se mueva todo mal): 
 <br>1 - ctrl mientras se clica en el label/button lo que sea, se arrastra (sale una línea) y se suelta. 
