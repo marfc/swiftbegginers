@@ -1,4 +1,4 @@
-##Apuntes Autolayout
+## Apuntes Autolayout
 
 Primero creamos para la image un ImageView, que es un closure en el que añadimos las características que va 
 a tener el imageView, creamos la instancia, el aspect ratio y tenemos que asignarle una imagen.<br>
